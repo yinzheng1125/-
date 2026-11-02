@@ -45,3 +45,15 @@ data/processed/*
 *.parquet
 *.sqlite3
 *.db
+
+# Python virtual environment
+.venv/
+
+# Raw PDFs and generated corpus
+data/raw/**/*.pdf
+data/interim/**/*.md
+data/processed/**/*.json
+
+# Preserve directory structure
+!data/interim/**/.keep
+!data/processed/**/.keep
